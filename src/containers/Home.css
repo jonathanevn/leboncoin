@@ -1,0 +1,12 @@
+/* HOME */
+
+.container-home {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.body-home {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

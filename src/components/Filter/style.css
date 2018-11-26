@@ -1,0 +1,105 @@
+/* GENERAL */
+.offers-filter-background {
+  background-color: #e6e6e6;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.offers-filter-container {
+  width: 1024px;
+  height: 150px;
+  margin: auto;
+  display: flex;
+}
+
+.offers-filter-form {
+  display: flex;
+  width: 1024px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.title-priceMin-priceMax {
+  display: flex;
+  flex-direction: column;
+}
+
+.priceMin-priceMax {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceMin-priceMax input {
+  width: 150px;
+}
+
+#title-search {
+  margin-bottom: 20px;
+  width: 510px;
+}
+
+.sort-btn-submit {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin: 30px 0px 30px 30px;
+}
+
+/* BUTTON */
+.btn-submit-filter {
+  background-color: #4585d0;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 255px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* FORM */
+form label {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #1a1a1a;
+  font-size: 13px;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+/* SORT */
+#sort {
+  border: solid 1px rgba(57, 57, 57, 0.3);
+  border-radius: 3px;
+  outline: none;
+  font-size: 13px;
+  padding-left: 40px;
+  width: 255px;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+}
+
+#sort select {
+  display: none;
+}
+
+#sort-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
